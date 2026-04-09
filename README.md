@@ -1,24 +1,13 @@
-# Aman Singh Portfolio Site
+# Aman Singh Vercel Site (Flat File Version)
 
-## Deploy on Vercel
-
-### Fastest option
-1. Upload this folder to a GitHub repo.
-2. Import the repo into Vercel.
-3. Click deploy.
-
-### CLI option
-```bash
-npm i -g vercel
-vercel
-vercel --prod
-```
-
-This is a static site, so there is no build step required.
+This version is flattened for easy GitHub and Vercel deployment.
 
 ## Files
-- `index.html` — main page
-- `styles.css` — styling
-- `script.js` — animations and click-to-count interactions
-- `assets/` — company logos and resume PDF
-- `vercel.json` — simple Vercel config
+All assets live in the project root. There are no subfolders.
+
+## Deploy
+1. Upload every file in this folder to the root of your GitHub repo.
+2. Import the repo into Vercel.
+3. Deploy.
+
+No build step is required.
